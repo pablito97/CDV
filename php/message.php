@@ -18,7 +18,7 @@ if(isset($_POST['message']))
         }
     }
 
-    $db = new foo_mysqli('localhost', 'user', 'password', 'dbname');
+    $db = new foo_mysqli('localhost', 'rowery_patryk', 'TajneHaslo2020', 'rowery_goscie');
 
     echo 'Success... ' . $db->host_info . "\n";
     
